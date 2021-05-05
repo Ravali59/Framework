@@ -6,7 +6,7 @@ import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class LoginDataProvider {
+public class  LoginDataProvider {
 	XSSFWorkbook wb;
 	public LoginDataProvider()
 	{

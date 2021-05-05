@@ -1,8 +1,5 @@
 package com.ors.utilities;
 
-
-
-
 import java.io.File;
 import java.io.IOException;
 
@@ -19,13 +16,10 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-
-
-
 public class BaseClass {
 	
 	public  WebDriver driver;
-	public  LoginDataProvider excel ;
+	public  LoginDataProvider  excel ;
 	public  ConfigDataProvider config;
 	public ExtentReports report ;
 	public ExtentTest test;
@@ -76,5 +70,4 @@ public class BaseClass {
 		
 	}
 	
-
 }

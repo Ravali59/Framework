@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.ors.utilities.WebLibraries;
+
 
 public class Loginpage {
 	WebDriver driver;
